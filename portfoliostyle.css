@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'airstrikeacad';
+  src: url("airstrikeacad.ttf");
+  font-family: 'nfi';
+  src: url("nfi.ttf");
+  font-family: 'bungasai';
+  src: url("Bungasai.ttf");
+  font-family: 'airstrikelaser';
+  src: url("airstrikelaser.ttf");
+  /*format("truetype");Starjout.ttf
+  font-weight: 400;
+  font-style: normal;*/
+}
+
+
+html{
+  background-size: contain;
+  background-image: url("../images/background.jpg");
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+  opacity: 0.7;
+  font-family: 'airstrikeacad';
+}
+h2{
+  font-size: 40px;
+  font-family: 'airstrikelaser';
+  text-align: center;
+  color: white;
+}
+h3{
+  font-size: 40px;
+  font-family: 'airstrikelaser';
+  text-align: center;
+  color: white;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  line-height: 60px;
+}
+li{
+  text-decoration: none;
+
+}
+textarea{
+  border:solid black 1px;
+  box-sizing: border-box;
+  width:240px;
+  border-radius: 30px;
+}
+input{
+  border: solid black 1px;
+  border-radius: 30px;
+}
+#retour{
+    width: 75px;
+    height: 75px;
+    border: navy 2px;
+    align-items: center;
+    background-size: cover;
+  }
+
+#borderleft{
+  opacity: 0.7;
+  border: solid grey 2px;
+  width: 250px;
+  height:5400px;
+  float: left;
+  background-color: black;
+}
+#borderight{
+  opacity: 0.7;
+  float: right;
+  border: solid grey 2px;
+  width: 250px;
+  height:5400px;
+  background-color: black;
+  margin-bottom: 2000px;
+}
+#welcome{
+  font-family: 'bungasai';
+  font-size: 25px;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  margin-top:100px;
+}
+#presentation{
+  font-size: 20px;
+  color:white;
+}
+nav{
+  background-image: url("../images/background.jpg");
+  opacity: 0.8;
+  font-family: nfi;
+  position: fixed;
+  margin-left: 8px;
+  vertical-align: top;
+  color: black;
+  width:243px;
+  height:300px;
+  border:solid black 1px;
+}
+nav ul li a{
+  font-family: 'airstrikelaser';
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+#acceuil{
+
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 20px;
+  color:black;
+}
+#portfolio{
+  font-family: 'nfi';
+  margin-left: 252px;
+  margin-right: 252px;
+  background-color: rgba(0, 0, 20, 1);
+  background-size: cover;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+}
+#about{
+  background-image: url("../images/degrade.jpg");
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+}
+#Contact{
+  background-color: rgba(255, 255, 200, 0.5);;
+  background-size: cover;
+  border: solid black 3px;
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  color:black;
+  padding: 30px;
+}
+form{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 20px;
+  color:black;
+  padding: 10px;
+}
+#valider{
+  margin-top: 50px;
+  width:50px;
+  height:50px;
+  align-items: center;
+  border: solid grey 3px;
+  text-decoration: none;
+  background-size: cover;
+  color: black;
+  align-items: center;
+}
+img{
+  width:700px;
+  height:400px;
+  vertical-align: top;
+  margin-top: 30px;
+
+}
+.work{
+  padding-right: 50px;
+}
+#nom{
+  margin-left: 50px;
+}
+#prenom{
+margin-left: 10px;
+}
+#mail{
+   margin-left: 60px;
+}
+#objet{
+  margin-left: 50px;
+}
+#Message{
+
+  margin-left: 40px;
+}
+#tel{
+  margin-left: 95px;
+}
+#copyright{
+  background-color: rgba(0,0, 250, 0.5);
+  margin-top: 45px;
+  color:white;
+  border: grey 1px;
+  width: 1500px;
+  height: 300px;
+  text-align: center;
+}

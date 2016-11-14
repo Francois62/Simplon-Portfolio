@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<!-- Désolé Hélène mais tu pourra demander à Marc, j'ai eu un soucis pour utiliser
+une police à dans un autre répertoire. -->
+  <head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="portfoliostyle.css"/>
+    <title>Portfolio de François</title>
+    <style>
+    @font-face {
+      font-family: 'airstrikeacad';
+      src: url("airstrikeacad.ttf");
+      font-family: 'nfi';
+      src: url("nfi.ttf");
+      font-family: 'bungasai';
+      src: url("Bungasai.ttf");
+      font-family: 'airstrikelaser';
+      src: url("airstrikelaser.ttf");
+      /*format("truetype");Starjout.ttf
+      font-weight: 400;
+      font-style: normal;*/
+    }
+    h1{
+      text-align: center;
+      font-size: 50px;
+      font-family: 'airstrikelaser';
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="borderleft">
+    </div>
+    <div id="borderight">
+    </div>
+    <h1>PORTFOLIO DE FRANCOIS</h1>
+    <nav>
+      <ul>
+        <li>
+        <a href="#welcome">Acceuil
+        </a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="welcome">
+    <p>Bonjour, je vous souhaite la bienvenue sur le site de François Andrzejewski.
+    </p>
+  <p>Ce site fait office de portfolio regroupant les compétences de développeur web que j'ai acquis durant la formation simplon.
+  </p>
+<p>Je vous invite à utiliser le menu pour accéder aux différents travaux déjà réalisés.
+  <p>
+<p>Bonne visite!</p>
+</div>
+<h2>Portfolio
+</h2>
+<div id="portfolio">
+  <p id="presentation">Site realise pour un client fictif desirant presenter ses produits sur son site.
+  </p>
+  <img src="../Portfolio/acceuil bouquet de rose.png">
+  <p>
+    Ici vous pouvez voir la page d'acceuil du dit site.
+    Elle respecte un cahier des charges donne par la formation Simplon.
+  </p>
+<img src="../Portfolio/produits.png">
+<p>Cette page presente les produits que voulais presenter l'entreprenneur.
+</p>
+<img src="../Portfolio/3e.png">
+<p>Une page de presentation de la boutique.
+</p>
+<img src="../Portfolio/4e.png">
+<p>Enfin une page servant de formulaire pour permettre au client de contacter le vendeur apres sa visite sur le site.
+</p>
+<p id="presentation">Exercice consistant a realiser un visage grace au language html et css.
+</p>
+<img class "work" src="../Portfolio/visage3.png">
+<p>Un des premier exercices permettant de gerer les div en html et les modeler grace au langage css.
+</p>
+<p id="presentation">Exercice realise au debut de la formation pour comprendre l'utilisation des degrades et tableaux en html et css.
+</p>
+<img class "work" src="../Portfolio/exercice html.png">
+<p>Egalement realise en debut de formation, cet exercice consistait a creer des listes, tableaux et fonds degrades toujours avec le html css.
+</div>
+<div id="about">
+  <p>Cette partie du site est dédié à une présentation plus personnelle.
+    <p>Je m'appelle François Andrzejewski, agé de 25 ans, je suis né à Boulogne-sur-mer dans le Pas de Calais en France.
+</p>
+    <p>Concernant mes compétences, j'ai effectué premièrement une formation de technicien réseaux pour ensuite me tourner vers le développement web nottamment via la formation simplon récemment labelisé "Grande école du Numérique".
+    </p>
+    <p>J'ai trouvé un réel intérêt dans la programation du fait que ce travail amène à sans cesse s'interroger sur la manière d'améliorer un projet, le travail en équipe et la logique que ce travail implique.
+    </p>
+    <p>Je suis intéréssé par la musique que je pratique, le cinéma, le sport et la culture en général.
+  </p>
+</div>
+<h3>Contact</h3>
+<div id="Contact">
+  <form method="post" action="contact.php">
+    <label for="Nom">Nom:</label>
+    <br>
+      <input type="formulaire" name="Nom">
+      <br>
+      <label for="Prénom">Prénom:<label>
+        <br>
+  <input type="formulaire" name="Prénom">
+<br>
+  <label for="Tel">Tel:</label>
+  <br>
+  <input type="formulaire" name="Tel">
+<br>
+        <label for="Mail">font-family: 'bungasai';Mail:</label>
+        <br>
+          <input type="formulaire" name="Mail">
+          <br>
+    <label for="Objet">Objet</label>
+          <br>
+          <input type="formulaire" name="Objet">
+
+         <br>
+         <label for="Message">Message:</label>
+         <br>
+            <textarea type="formulaire" name="Message" id="Message">
+            </textarea>
+            <br>
+  <input type="image" name="send" src="../Contact/valider.jpg" id="valider">
+<p id="monadresse">
+  Adresse: 12 rue Georges Docquois.
+</p>
+<p>
+  62200 Boulogne-sur-mer
+</p>
+<p id="monnum">
+  Tel: 06.31.13.44.65
+</p>
+<p id="monmail">
+  Mail: fran.andrzejewski@laposte.net
+</p>
+<p>
+  Merci de votre visite sur mon portfolio!
+</p>
+  <p>
+  <a href="#">
+  <img src="../Contact/fleche-haut.png" id="retour">
+</a>
+</p>
+          </form>
+</div>
+<div id="copyright">
+  &copy Andrzejewski.François
+</div>
+</div>
+</body>
+</html>
